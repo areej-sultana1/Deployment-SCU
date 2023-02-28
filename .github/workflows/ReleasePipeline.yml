@@ -32,7 +32,7 @@ jobs:
   convert-to-managed:
     runs-on: windows-latest
     environment: 
-      name:'AreejSultana-DEV'
+      name: 'AreejSultana-DEV'
 
     steps:
     - uses: actions/checkout@v3
