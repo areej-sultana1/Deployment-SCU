@@ -32,7 +32,7 @@ jobs:
   convert-to-managed:
     runs-on: windows-latest
     environment: 
-      name:'Release Enviornment'
+      name:'AreejSultana-Dev'
 
     steps:
     - uses: actions/checkout@v3
@@ -80,7 +80,7 @@ jobs:
     needs: [ convert-to-managed ]
     runs-on: windows-latest
     environment: 
-      name: 'Staging Enviornment' 
+      name: 'Release Enviornment' 
 
     steps:
     - uses: actions/checkout@v3
@@ -108,7 +108,7 @@ jobs:
     needs: [ release-to-testing ]
     runs-on: windows-latest
     environment: 
-      name: 'Basit Env.' 
+      name: 'Staging Enviornment' 
 
     steps:
     - uses: actions/checkout@v3
