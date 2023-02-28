@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_itk22_student" />
+  <EntityRelationship Name="lk_itk22_student_createdby" />
+  <EntityRelationship Name="lk_itk22_student_modifiedby" />
+  <EntityRelationship Name="owner_itk22_student" />
+  <EntityRelationship Name="team_itk22_student" />
+  <EntityRelationship Name="user_itk22_student" />
+</EntityRelationships>
